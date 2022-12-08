@@ -28,6 +28,7 @@ public class Frame extends JFrame{
 	Statement st;
 	ResultSet rs;
 	
+	
 
 	JLabel jl1=new JLabel("SKU: ");
 	JLabel jl2=new JLabel("Brand: ");

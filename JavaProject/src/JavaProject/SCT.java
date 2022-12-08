@@ -26,6 +26,7 @@ public class SCT {
 			final String PASSWORD="123456";
 			Connection conn=null;
 			
+			
 			conn=DriverManager.getConnection(URL,USER,PASSWORD);
 			System.out.println("successfully connected to the database");
 			return conn;
