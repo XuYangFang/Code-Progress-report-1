@@ -25,7 +25,7 @@ public class SCT {
 			final String USER="sa";
 			final String PASSWORD="123456";
 			Connection conn=null;
-			//获得数据库的连接
+			
 			conn=DriverManager.getConnection(URL,USER,PASSWORD);
 			System.out.println("successfully connected to the database");
 			return conn;
